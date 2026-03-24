@@ -4,10 +4,12 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define DEF 0
-#define NAV 1
-#define SYM 2
-#define ADJ 3
-#define EXTRA 4
+#define MEDIA 1 
+#define NAV 2
+#define MOUSE 3
+#define SYM 4
+#define NUM 5
+#define FUNC 6
 
 / {
     behaviors {
