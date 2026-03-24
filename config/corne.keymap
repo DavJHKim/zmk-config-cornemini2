@@ -102,6 +102,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans      &kp C_VOLUME_DOWN  &kp C_PREV  &kp C_BRI_DEC  &trans  &trans
                         &trans  &trans  &trans    &kp C_MUTE  &kp C_PP           &kp C_NEXT
             >;
+
+            label = "Media";
         };
 
         NAV {
@@ -111,6 +113,8 @@
 &trans  &trans   &trans          &trans           &trans   &trans             &trans          &trans          &trans        &trans           &kp PAGE_DOWN  &trans
                                  &trans           &trans   &trans             &kp ENTER       &kp BACKSPACE   &kp DELETE
             >;
+
+            label = "Nav";
         };
 
         MOUSE {
@@ -120,6 +124,8 @@
 &trans  &trans  &trans  &kp K_COPY  &kp K_PASTE  &trans    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &mkp MB5    &trans
                         &trans      &trans       &trans    &mkp LCLK       &mkp RCLK       &mkp MCLK
             >;
+
+            label = "Mouse";
         };
 
         SYM {
@@ -132,10 +138,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL        &kp AT                     &kp HASH          &kp DLLR              &kp PRCNT    &kp CARET  &kp AMPS              &kp ASTRK               &kp LEFT_PARENTHESIS   &kp RPAR                &trans
-&trans  &hm LGUI GRAVE  &hm LALT NON_US_BACKSLASH  &hm LSHIFT MINUS  &hm LEFT_CONTROL SQT  &kp EQUAL    &trans     &hm RCTRL LEFT_BRACE  &hm RSHIFT RIGHT_BRACE  &hm RALT LEFT_BRACKET  &hm RGUI RIGHT_BRACKET  &trans
-&trans  &kp TILDE       &kp PIPE                   &kp UNDERSCORE    &kp DOUBLE_QUOTES     &kp PLUS     &trans     &trans                &trans                  &trans                 &trans                  &trans
-                                                   &kp ESC           &kp SPACE             &kp TAB      &trans     &trans                &trans
+&trans  &kp EXCL        &kp AT              &kp HASH          &kp DLLR              &kp PRCNT    &kp CARET  &kp AMPS              &kp ASTRK               &kp LEFT_PARENTHESIS   &kp RPAR                &trans
+&trans  &hm LGUI GRAVE  &hm LALT BACKSLASH  &hm LSHIFT MINUS  &hm LEFT_CONTROL SQT  &kp EQUAL    &trans     &hm RCTRL LEFT_BRACE  &hm RSHIFT RIGHT_BRACE  &hm RALT LEFT_BRACKET  &hm RGUI RIGHT_BRACKET  &trans
+&trans  &kp TILDE       &kp PIPE            &kp UNDERSCORE    &kp DOUBLE_QUOTES     &kp PLUS     &trans     &trans                &trans                  &trans                 &trans                  &trans
+                                            &kp ESC           &kp SPACE             &kp TAB      &trans     &trans                &trans
             >;
         };
 
@@ -146,6 +152,8 @@
 &trans  &trans             &trans             &trans               &trans                     &trans          &trans        &trans                      &trans               &trans             &trans             &trans
                                               &kp ESC              &kp SPACE                  &kp TAB         &trans        &trans                      &trans
             >;
+
+            label = "Numbers";
         };
 
         FUNC {
